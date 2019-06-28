@@ -1,0 +1,20 @@
+body {
+  background: black;
+}
+
+.DTAWT {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 48px;
+}
+
+.DTAWT {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #002D62 35%, #EB6E1F 70%, #F4911E 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
