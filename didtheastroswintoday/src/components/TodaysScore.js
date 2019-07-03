@@ -22,10 +22,28 @@ export class TodaysScore extends Component {
 
   render(){
 
+    const gameinfo = this.state.games.map((info, index) => {
+      if (index == 8)
+
+
+    {return(
+      <div>
+      <ul>
+      <li className="ScoresList">
+      <p> HELLLLL YEEEAAAA </p>
+      <p> {info.game.home.name} - {info.game.home.runs} </p>
+      <p> {info.game.away.name} - {info.game.away.runs} </p>
+      </li>
+      </ul>
+      </div>
+      )
+    }
+  })
 
     return (
-      <div>
+      <div className="WinButton">
       <button onClick={this.WinCheck}>Did they win?</button>
+      {gameinfo}
       </div>
     )
   }
