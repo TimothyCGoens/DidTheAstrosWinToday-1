@@ -23,14 +23,14 @@ export class TodaysScore extends Component {
   render(){
 
     const gameinfo = this.state.games.map((info, index) => {
-      if (index == 8)
+      if (index === 8)
 
 
     {return(
       <div>
       <ul>
       <li className="ScoresList">
-      <p> HELLLLL YEEEAAAA </p>
+      <p> Yes! </p>
       <p> {info.game.home.name} - {info.game.home.runs} </p>
       <p> {info.game.away.name} - {info.game.away.runs} </p>
       </li>

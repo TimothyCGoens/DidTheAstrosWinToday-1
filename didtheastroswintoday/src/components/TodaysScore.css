@@ -7,3 +7,13 @@
 .answer {
   color: white;
 }
+
+.ScoresList {
+  color:white;
+  list-style: none;
+  text-align: center;
+}
+
+.WinButton {
+text-align: center;
+}
