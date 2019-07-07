@@ -12,6 +12,7 @@
   color:white;
   list-style: none;
   text-align: center;
+  display: grid;
 }
 
 .WinButton {
